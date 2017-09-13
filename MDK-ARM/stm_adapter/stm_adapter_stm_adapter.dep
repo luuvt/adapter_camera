@@ -1,0 +1,1237 @@
+Dependencies for Project 'stm_adapter', Target 'stm_adapter': (DO NOT MODIFY !)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c)(0x585B8EFB)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\stm32f1xx_hal_flash_ex.o --omf_browse stm_adapter\stm32f1xx_hal_flash_ex.crf --depend stm_adapter\stm32f1xx_hal_flash_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c)(0x585B8EFB)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\stm32f1xx_hal_gpio.o --omf_browse stm_adapter\stm32f1xx_hal_gpio.crf --depend stm_adapter\stm32f1xx_hal_gpio.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c)(0x585B8EFB)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\stm32f1xx_hal_tim.o --omf_browse stm_adapter\stm32f1xx_hal_tim.crf --depend stm_adapter\stm32f1xx_hal_tim.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c)(0x585B8EFA)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\stm32f1xx_hal_dma.o --omf_browse stm_adapter\stm32f1xx_hal_dma.crf --depend stm_adapter\stm32f1xx_hal_dma.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c)(0x585B8EFB)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\stm32f1xx_hal_rcc_ex.o --omf_browse stm_adapter\stm32f1xx_hal_rcc_ex.crf --depend stm_adapter\stm32f1xx_hal_rcc_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c)(0x585B8EFA)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\stm32f1xx_hal.o --omf_browse stm_adapter\stm32f1xx_hal.crf --depend stm_adapter\stm32f1xx_hal.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c)(0x585B8EFA)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\stm32f1xx_hal_adc.o --omf_browse stm_adapter\stm32f1xx_hal_adc.crf --depend stm_adapter\stm32f1xx_hal_adc.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c)(0x585B8EFB)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\stm32f1xx_hal_tim_ex.o --omf_browse stm_adapter\stm32f1xx_hal_tim_ex.crf --depend stm_adapter\stm32f1xx_hal_tim_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.c)(0x585B8EFB)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\stm32f1xx_hal_iwdg.o --omf_browse stm_adapter\stm32f1xx_hal_iwdg.crf --depend stm_adapter\stm32f1xx_hal_iwdg.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c)(0x585B8EFA)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\stm32f1xx_hal_flash.o --omf_browse stm_adapter\stm32f1xx_hal_flash.crf --depend stm_adapter\stm32f1xx_hal_flash.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c)(0x585B8EFB)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\stm32f1xx_hal_rcc.o --omf_browse stm_adapter\stm32f1xx_hal_rcc.crf --depend stm_adapter\stm32f1xx_hal_rcc.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c)(0x585B8EFB)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\stm32f1xx_hal_pwr.o --omf_browse stm_adapter\stm32f1xx_hal_pwr.crf --depend stm_adapter\stm32f1xx_hal_pwr.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c)(0x585B8EFB)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\stm32f1xx_hal_uart.o --omf_browse stm_adapter\stm32f1xx_hal_uart.crf --depend stm_adapter\stm32f1xx_hal_uart.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c)(0x585B8EFA)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\stm32f1xx_hal_adc_ex.o --omf_browse stm_adapter\stm32f1xx_hal_adc_ex.crf --depend stm_adapter\stm32f1xx_hal_adc_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c)(0x585B8EFA)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\stm32f1xx_hal_cortex.o --omf_browse stm_adapter\stm32f1xx_hal_cortex.crf --depend stm_adapter\stm32f1xx_hal_cortex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+F (..\Drivers\HM_SERIAL\debug_console.c)(0x579B063B)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\debug_console.o --omf_browse stm_adapter\debug_console.crf --depend stm_adapter\debug_console.d)
+I (..\Drivers\HM_SERIAL\debug_console.h)(0x57973CE5)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB3988)
+I (..\Drivers\HM_SERIAL\serial_debug_config.h)(0x579B0EB6)
+I (../Inc/usart.h)(0x585B8EFC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+I (..\Drivers\HM_SERIAL\hm_serial_uart8.h)(0x577F697B)
+I (..\Drivers\HM_SERIAL\hm_serial_uart_conf.h)(0x57835BA7)
+F (..\Drivers\HM_SERIAL\hm_serial_uart8.c)(0x57959B04)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\hm_serial_uart8.o --omf_browse stm_adapter\hm_serial_uart8.crf --depend stm_adapter\hm_serial_uart8.d)
+I (..\Drivers\HM_SERIAL\hm_serial_uart8.h)(0x577F697B)
+I (..\Drivers\HM_SERIAL\hm_serial_uart_conf.h)(0x57835BA7)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB3988)
+F (..\Drivers\HM_SERIAL\serial_debug_config.c)(0x57A049D9)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\serial_debug_config.o --omf_browse stm_adapter\serial_debug_config.crf --depend stm_adapter\serial_debug_config.d)
+I (..\Drivers\HM_SERIAL\serial_debug_config.h)(0x579B0EB6)
+I (../Inc/usart.h)(0x585B8EFC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB3988)
+I (..\Drivers\HM_SERIAL\hm_serial_uart8.h)(0x577F697B)
+I (..\Drivers\HM_SERIAL\hm_serial_uart_conf.h)(0x57835BA7)
+F (..\Drivers\HM_SERIAL\user_debug.c)(0x57A047D5)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\user_debug.o --omf_browse stm_adapter\user_debug.crf --depend stm_adapter\user_debug.d)
+I (..\Drivers\HM_SERIAL\user_debug.h)(0x57A046B1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DB398E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (..\Drivers\HM_SERIAL\serial_debug_config.h)(0x579B0EB6)
+I (../Inc/usart.h)(0x585B8EFC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB3988)
+I (..\Drivers\HM_SERIAL\hm_serial_uart8.h)(0x577F697B)
+I (..\Drivers\HM_SERIAL\hm_serial_uart_conf.h)(0x57835BA7)
+F (..\Drivers\adapter_camera_config\adapter_camera_config.cpp)(0x58BDBB24)(--cpp -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99 -cpp-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\adapter_camera_config.o --omf_browse stm_adapter\adapter_camera_config.crf --depend stm_adapter\adapter_camera_config.d)
+I (..\Drivers\adapter_camera_config\adapter_camera_config.h)(0x58BCC9AE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB3986)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (../Inc/tim.h)(0x58646453)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+I (..\Drivers\Button_driver\button_driver.h)(0x586464FD)
+I (..\Drivers\adapter_camera_config\adapter_camera_data_conf.h)(0x58BCC5DE)
+I (..\Drivers\pir\di_debounce.h)(0x58B946DB)
+I (../Inc/gpio.h)(0x585B8EFB)
+I (..\Drivers\RF_315\RCSwitch.h)(0x57A85E67)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB3988)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB3988)
+I (..\Drivers\HM_SERIAL\user_debug.h)(0x57A046B1)
+I (..\Drivers\HM_SERIAL\debug_console.h)(0x57973CE5)
+I (..\Drivers\HM_SERIAL\serial_debug_config.h)(0x579B0EB6)
+I (../Inc/usart.h)(0x585B8EFC)
+I (..\Drivers\HM_SERIAL\hm_serial_uart8.h)(0x577F697B)
+I (..\Drivers\HM_SERIAL\hm_serial_uart_conf.h)(0x57835BA7)
+F (..\Drivers\adapter_camera_config\adapter_camera_data_conf.cpp)(0x58BCD60A)(--cpp -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99 -cpp-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\adapter_camera_data_conf.o --omf_browse stm_adapter\adapter_camera_data_conf.crf --depend stm_adapter\adapter_camera_data_conf.d)
+I (..\Drivers\adapter_camera_config\adapter_camera_data_conf.h)(0x58BCC5DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (..\Drivers\stm32f1xx_flash_if\stm32f1xx_flash_if.h)(0x57A98B56)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB3988)
+I (..\Drivers\adapter_camera_config\adapter_camera_config.h)(0x58BCC9AE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB3986)
+I (../Inc/tim.h)(0x58646453)
+I (..\Drivers\Button_driver\button_driver.h)(0x586464FD)
+I (..\Drivers\pir\di_debounce.h)(0x58B946DB)
+F (..\Drivers\stm32f1xx_flash_if\stm32f1xx_flash_if.c)(0x57355E6C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99 -cpp-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\stm32f1xx_flash_if.o --omf_browse stm_adapter\stm32f1xx_flash_if.crf --depend stm_adapter\stm32f1xx_flash_if.d)
+I (..\Drivers\stm32f1xx_flash_if\stm32f1xx_flash_if.h)(0x57A98B56)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+F (..\Drivers\adapter_camera_config\adapter_camera_middle_core.cpp)(0x58BE2B44)(--cpp -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99 -cpp-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\adapter_camera_middle_core.o --omf_browse stm_adapter\adapter_camera_middle_core.crf --depend stm_adapter\adapter_camera_middle_core.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB3988)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DB398E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB3986)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (..\Drivers\adapter_camera_config\adapter_camera_middle_core.h)(0x58BCC21D)
+I (..\Drivers\adapter_camera_config\adapter_camera_config.h)(0x58BCC9AE)
+I (../Inc/tim.h)(0x58646453)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+I (..\Drivers\Button_driver\button_driver.h)(0x586464FD)
+I (..\Drivers\adapter_camera_config\adapter_camera_data_conf.h)(0x58BCC5DE)
+I (..\Drivers\pir\di_debounce.h)(0x58B946DB)
+I (..\Drivers\stm32f1xx_flash_if\stm32f1xx_flash_if.h)(0x57A98B56)
+I (..\Drivers\HM_SERIAL\user_debug.h)(0x57A046B1)
+I (..\Drivers\HM_SERIAL\debug_console.h)(0x57973CE5)
+I (..\Drivers\HM_SERIAL\serial_debug_config.h)(0x579B0EB6)
+I (../Inc/usart.h)(0x585B8EFC)
+I (..\Drivers\HM_SERIAL\hm_serial_uart8.h)(0x577F697B)
+I (..\Drivers\HM_SERIAL\hm_serial_uart_conf.h)(0x57835BA7)
+I (..\Drivers\RF_315\RCSwitch.h)(0x57A85E67)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB3988)
+F (..\Drivers\RF_315\RCSwitch.cpp)(0x57A85E5A)(--cpp -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99 --cpp-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\rcswitch.o --omf_browse stm_adapter\rcswitch.crf --depend stm_adapter\rcswitch.d)
+I (..\Drivers\RF_315\RCSwitch.h)(0x57A85E67)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB3988)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB3988)
+I (..\Drivers\adapter_camera_config\adapter_camera_config.h)(0x58BCC9AE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB3986)
+I (../Inc/tim.h)(0x58646453)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+I (..\Drivers\Button_driver\button_driver.h)(0x586464FD)
+I (..\Drivers\adapter_camera_config\adapter_camera_data_conf.h)(0x58BCC5DE)
+I (..\Drivers\pir\di_debounce.h)(0x58B946DB)
+I (../Inc/stm32f1xx_it.h)(0x585B8EFC)
+I (..\Drivers\HM_SERIAL\user_debug.h)(0x57A046B1)
+I (..\Drivers\HM_SERIAL\debug_console.h)(0x57973CE5)
+I (..\Drivers\HM_SERIAL\serial_debug_config.h)(0x579B0EB6)
+I (../Inc/usart.h)(0x585B8EFC)
+I (..\Drivers\HM_SERIAL\hm_serial_uart8.h)(0x577F697B)
+I (..\Drivers\HM_SERIAL\hm_serial_uart_conf.h)(0x57835BA7)
+F (..\Drivers\Button_driver\button_driver.c)(0x58646513)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\button_driver.o --omf_browse stm_adapter\button_driver.crf --depend stm_adapter\button_driver.d)
+I (..\Drivers\Button_driver\button_driver.h)(0x586464FD)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB3988)
+I (../Inc/gpio.h)(0x585B8EFB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB3988)
+F (.\main.cpp)(0x58BCD60B)(--cpp -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99 --cpp-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\main.o --omf_browse stm_adapter\main.crf --depend stm_adapter\main.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+I (../Inc/adc.h)(0x585B8EFB)
+I (../Inc/dma.h)(0x585B8EFB)
+I (../Inc/iwdg.h)(0x585B8EFB)
+I (../Inc/tim.h)(0x58646453)
+I (../Inc/usart.h)(0x585B8EFC)
+I (../Inc/gpio.h)(0x585B8EFB)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB3988)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DB398E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB3986)
+I (..\Drivers\adapter_camera_config\adapter_camera_middle_core.h)(0x58BCC21D)
+I (..\Drivers\adapter_camera_config\adapter_camera_config.h)(0x58BCC9AE)
+I (..\Drivers\Button_driver\button_driver.h)(0x586464FD)
+I (..\Drivers\adapter_camera_config\adapter_camera_data_conf.h)(0x58BCC5DE)
+I (..\Drivers\pir\di_debounce.h)(0x58B946DB)
+I (..\Drivers\stm32f1xx_flash_if\stm32f1xx_flash_if.h)(0x57A98B56)
+I (..\Drivers\HM_SERIAL\user_debug.h)(0x57A046B1)
+I (..\Drivers\HM_SERIAL\debug_console.h)(0x57973CE5)
+I (..\Drivers\HM_SERIAL\serial_debug_config.h)(0x579B0EB6)
+I (..\Drivers\HM_SERIAL\hm_serial_uart8.h)(0x577F697B)
+I (..\Drivers\HM_SERIAL\hm_serial_uart_conf.h)(0x57835BA7)
+I (..\Drivers\RF_315\RCSwitch.h)(0x57A85E67)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB3988)
+F (../Src/tim.c)(0x58646479)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\tim.o --omf_browse stm_adapter\tim.crf --depend stm_adapter\tim.d)
+I (../Inc/tim.h)(0x58646453)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+I (../Inc/gpio.h)(0x585B8EFB)
+F (../Src/stm32f1xx_it.c)(0x58646498)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\stm32f1xx_it.o --omf_browse stm_adapter\stm32f1xx_it.crf --depend stm_adapter\stm32f1xx_it.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+I (../Inc/stm32f1xx_it.h)(0x585B8EFC)
+F (../Src/dma.c)(0x585B90E2)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\dma.o --omf_browse stm_adapter\dma.crf --depend stm_adapter\dma.d)
+I (../Inc/dma.h)(0x585B8EFB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+F (../Src/gpio.c)(0x58BE17F1)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\gpio.o --omf_browse stm_adapter\gpio.crf --depend stm_adapter\gpio.d)
+I (../Inc/gpio.h)(0x585B8EFB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+F (../Src/adc.c)(0x585B90E1)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\adc.o --omf_browse stm_adapter\adc.crf --depend stm_adapter\adc.d)
+I (../Inc/adc.h)(0x585B8EFB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+I (../Inc/gpio.h)(0x585B8EFB)
+F (../Src/iwdg.c)(0x585B90E2)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\iwdg.o --omf_browse stm_adapter\iwdg.crf --depend stm_adapter\iwdg.d)
+I (../Inc/iwdg.h)(0x585B8EFB)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+F (../Src/stm32f1xx_hal_msp.c)(0x585B90E2)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\stm32f1xx_hal_msp.o --omf_browse stm_adapter\stm32f1xx_hal_msp.crf --depend stm_adapter\stm32f1xx_hal_msp.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+F (../Src/usart.c)(0x585B90E3)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\usart.o --omf_browse stm_adapter\usart.crf --depend stm_adapter\usart.d)
+I (../Inc/usart.h)(0x585B8EFC)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+I (../Inc/gpio.h)(0x585B8EFB)
+I (../Inc/dma.h)(0x585B8EFB)
+F (startup_stm32f103xb.s)(0x585B8EBE)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include--pd "__UVISION_VERSION SETA 518" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list startup_stm32f103xb.lst --xref -o stm_adapter\startup_stm32f103xb.o --depend stm_adapter\startup_stm32f103xb.d)
+F (../Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c)(0x585B8EF8)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\system_stm32f1xx.o --omf_browse stm_adapter\system_stm32f1xx.crf --depend stm_adapter\system_stm32f1xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+F (..\Drivers\pir\di_debounce.c)(0x58B946F5)(-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ..\Drivers\HM_SERIAL -I ..\Drivers\RF_315 -I ..\Drivers\Button_driver -I ..\Drivers\adapter_camera_config -I ..\Drivers\stm32f1xx_flash_if -I ..\Drivers\adapter_camera_config -I ..\Drivers\pir --C99-I D:\fpt\project\ATMG_CAMERA_ADAPTER_GIAC_EM\adapter_camera\adapter_new\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o stm_adapter\di_debounce.o --omf_browse stm_adapter\di_debounce.crf --depend stm_adapter\di_debounce.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x56DD42AE)
+I (../Inc/stm32f1xx_hal_conf.h)(0x585B8EFC)
+I (../Inc/mxconstants.h)(0x58BE17C4)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x56DD42AE)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x585B8EF8)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x585B8EF9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x585B8EFA)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x585B8EF9)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x585B8EF8)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x585B8EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB3986)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x56DD42AE)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x585B8EFA)
+I (..\Drivers\pir\di_debounce.h)(0x58B946DB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB3986)
